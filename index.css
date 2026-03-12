@@ -1,3 +1,45 @@
-body {
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #fbf8f4; 
+    color: #303136; 
+    line-height: 1.6;
+}
+
+main {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 80px 24px 60px;
+}
+
+
+header {
+    margin-bottom: 64px;
+    text-align: center; 
+}
+
+header p {
+    margin: 0 auto;
+}
+
+.badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #76e0bd 0%, #5dd4a8 100%);
+    color: #303136;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    box-shadow: 
+        0 0 20px rgba(118, 224, 189, 0.5),  
+        0 4px 12px rgba(118, 224, 189, 0.3); 
+
 }
