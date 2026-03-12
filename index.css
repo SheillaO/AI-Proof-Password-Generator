@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: "Montserrat", sans-serif;
     background: #fbf8f4; 
     color: #303136; 
     line-height: 1.6;
@@ -190,7 +190,7 @@ h2 {
 .stat-number {
     font-size: 56px;
     font-weight: 800;
-    color: #fad785; /* Sunbeam - attention-grabbing */
+    color: #fad785; 
     line-height: 1;
     margin-bottom: 12px;
     letter-spacing: -0.02em;
@@ -218,35 +218,31 @@ h2 {
     text-align: center;
 }
 
-
 footer {
     text-align: center;
-    margin-top: 32px;
-    padding: 24px 20px;
-    
+    padding: 40px 24px;
+    border-top: 1px solid #e0e0e0;
+    margin-top: 60px;
 }
 
 footer p {
-    color: rgba(255, 255, 255, 0.9);
+    color: #666; 
     font-size: 14px;
     line-height: 1.8;
     font-weight: 400;
 }
 
 footer a {
-    color: white;
+    color: #145fe4; 
     text-decoration: none;
     font-weight: 600;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
-    padding-bottom: 2px;
     transition: all 0.2s ease;
 }
 
 footer a:hover {
-    border-bottom-color: white;
-    color: #fbbf24;
+    text-decoration: underline;
+    color: #76e0bd; 
 }
-
 
 @media (max-width: 640px) {
     main {
