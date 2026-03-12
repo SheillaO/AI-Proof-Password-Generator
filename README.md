@@ -201,7 +201,6 @@ This project represents:
  
 **Olga**
 - Role: Technical Product Marketing Manager
-- Location: Nairobi, Kenya 🇰🇪
 - GitHub: [@SheillaO](https://github.com/SheillaO)
 - Mission: Building digital security tools that empower African users
  
@@ -226,7 +225,7 @@ This project is open source and available under the [MIT License](LICENSE).
  
 - [Kwetu Blackjack](https://github.com/SheillaO/kwetu-blackjack) - African-themed card game
 - [She Hoops Africa](https://github.com/SheillaO/she-hoops-africa) - Basketball scoreboard
-- [Recipe Calculator](https://github.com/SheillaO/recipe-calculator) - Ingredient scaling tool
+- [Recipe Calculator](https://github.com/SheillaO/Recipe-Ingredient-Calculator) - Ingredient scaling tool
  
 ---
  
@@ -238,4 +237,4 @@ This project is open source and available under the [MIT License](LICENSE).
  
 ---
 
-🌍 **#CybersecurityAwareness #PasswordSecurity #AILimitations 
+🌍 #CybersecurityAwareness #PasswordSecurity #AILimitations 
