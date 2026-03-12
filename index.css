@@ -43,3 +43,59 @@ header p {
         0 4px 12px rgba(118, 224, 189, 0.3); 
 
 }
+
+h1 {
+    font-size: 52px;
+    font-weight: 700;
+    color: #303136; 
+    margin-bottom: 20px;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+}
+
+header p {
+    font-size: 21px;
+    color: #666;
+    line-height: 1.65;
+    max-width: 600px;
+}
+
+
+.generator {
+    background: white;
+    border-radius: 16px;
+    padding: 48px;
+    margin-bottom: 64px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.generate-btn {
+    width: 100%;
+    padding: 16px;
+    background: #145fe4; 
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    margin-bottom: 32px;
+    transition: background 0.2s ease;
+}
+
+.generate-btn:hover {
+    background: #0d4bb8;
+}
+
+.generate-btn:active {
+    transform: scale(0.98);
+}
+
+
+.passwords {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 24px;
+}
