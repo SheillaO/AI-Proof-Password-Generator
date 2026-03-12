@@ -4,6 +4,9 @@
  
 A cryptographically secure password generator that exposes the critical weakness in AI-generated passwords. Built with vanilla JavaScript to demonstrate true randomness versus AI pattern-matching.
 
+<img width="1528" height="862" alt="AI PROOF PASSWORD GENERATOR" src="https://github.com/user-attachments/assets/9877ef3a-7bb0-4a53-8211-cba91c2e1938" />
+
+
 ## 🚀 Live Demo
  
 [View Live Demo](https://ai-proof-password-generator.netlify.app/)
