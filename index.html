@@ -19,3 +19,11 @@
             <p>ChatGPT's passwords? Predictable. Claude's? Even worse—just 27 bits of entropy. That's crackable in
                 seconds. This generator uses true randomness. The kind AI can't fake.</p>
         </header>
+
+        <section class="generator">
+            <button onclick="generatePasswords()" class="generate-btn">Generate passwords</button>
+        
+            <div class="length-control">
+                <label>Password length: <span id="length-display">15</span> characters</label>
+                <input type="range" id="length-slider" min="10" max="25" value="15" oninput="updateLength()">
+            </div>
