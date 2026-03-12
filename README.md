@@ -6,7 +6,7 @@ A cryptographically secure password generator that exposes the critical weakness
 
 ## 🚀 Live Demo
  
-[View Live Demo]<https://ai-proof-password-generator.netlify.app/>
+[View Live Demo] <https://ai-proof-password-generator.netlify.app/>
  
 ---
 ## 🎯 The Problem
