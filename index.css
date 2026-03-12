@@ -218,6 +218,72 @@ h2 {
     text-align: center;
 }
 
+.length-control {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.length-control label {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+#length-display {
+    color: #145fe4;
+    font-weight: 700;
+}
+
+input[type="range"] {
+    width: 100%;
+    max-width: 300px;
+    height: 6px;
+    background: #e0e0e0;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #145fe4;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #145fe4;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+}
+
+.copy-counter {
+    text-align: center;
+    font-size: 13px;
+    color: #76e0bd;
+    font-weight: 600;
+    margin-bottom: 16px;
+    min-height: 20px;
+}
+
+.password-history {
+    font-size: 11px;
+    color: #999;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Courier New', monospace;
+    word-break: break-all;
+    min-height: 20px;
+}
+
 footer {
     text-align: center;
     padding: 40px 24px;
@@ -243,6 +309,7 @@ footer a:hover {
     text-decoration: underline;
     color: #76e0bd; 
 }
+
 
 @media (max-width: 640px) {
     main {
