@@ -99,3 +99,181 @@ header p {
     gap: 16px;
     margin-bottom: 24px;
 }
+
+
+.password-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.password {
+    width: 100%;
+    padding: 20px 16px;
+    background: #f5f5f5;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Courier New', monospace;
+    color: #303136;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: left;
+    word-break: break-all;
+    min-height: 80px;
+}
+
+.password:hover {
+    background: #76e0bd; 
+    border-color: #76e0bd;
+    transform: translateY(-2px);
+}
+
+.hint {
+    font-size: 12px;
+    color: #999;
+    padding-left: 4px;
+}
+
+.feedback {
+    padding: 16px;
+    background: #fad785; 
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #303136;
+    min-height: 20px;
+    text-align: center;
+}
+
+.feedback:empty {
+    display: none;
+}
+
+
+.why {
+    margin-bottom: 64px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #303136;
+    margin-bottom: 20px;
+    letter-spacing: -0.02em;
+}
+
+.lead {
+    font-size: 19px;
+    color: #555;
+    margin-bottom: 40px;
+    line-height: 1.7;
+}
+
+.stats-callout {
+    background: linear-gradient(135deg, #145fe4 0%, #0d4bb8 100%);
+    padding: 48px 40px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    box-shadow: 0 8px 24px rgba(20, 95, 228, 0.25);
+}
+
+.stat-item {
+    flex: 1;
+    text-align: center;
+}
+
+.stat-number {
+    font-size: 56px;
+    font-weight: 800;
+    color: #fad785; /* Sunbeam - attention-grabbing */
+    line-height: 1;
+    margin-bottom: 12px;
+    letter-spacing: -0.02em;
+}
+
+.stat-label {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.95);
+    line-height: 1.5;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.stat-divider {
+    width: 1px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 0 40px;
+}
+
+.closing {
+    font-size: 19px;
+    color: #303136;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    padding: 40px 24px;
+    border-top: 1px solid #e0e0e0;
+}
+
+footer p {
+    font-size: 14px;
+    color: #999;
+}
+
+footer a {
+    color: #145fe4;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 640px) {
+    main {
+        padding: 60px 20px 40px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    header p {
+        font-size: 18px;
+    }
+
+    .generator {
+        padding: 32px 24px;
+    }
+
+    .passwords {
+        grid-template-columns: 1fr;
+    }
+
+    .stats-callout {
+        flex-direction: column;
+        gap: 32px;
+        padding: 40px 24px;
+    }
+
+    .stat-divider {
+        width: 80px;
+        height: 1px;
+        margin: 0;
+    }
+
+    .stat-number {
+        font-size: 48px;
+    }
+}
