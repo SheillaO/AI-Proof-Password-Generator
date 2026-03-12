@@ -27,3 +27,24 @@
                 <label>Password length: <span id="length-display">15</span> characters</label>
                 <input type="range" id="length-slider" min="10" max="25" value="15" oninput="updateLength()">
             </div>
+
+            <div id="copy-count" class="copy-counter"></div>
+            <div id="history" class="password-history"></div>
+            
+            <div class="passwords">
+                <div class="password-item">
+                    <button id="password1" onclick="savePassword(this.textContent)" class="password">
+                        Click generate above
+                    </button>
+                    <span class="hint">← Click to copy</span>
+                </div>
+                div class="password-item">
+                <button id="password2" onclick="savePassword(this.textContent)" class="password">
+                    Click generate above
+                </button>
+                <span class="hint">← Click to copy</span>
+                </div>
+                </div>
+                
+                <div id="saved-password" class="feedback"></div>
+                </section>
